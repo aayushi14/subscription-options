@@ -1,0 +1,17 @@
+<mat-card class="optionCard {{option.bgcolor}}" [ngClass]="{'disableCard' : !option.isClickable, 'enableCard' : option.isClickable}">
+  <mat-card-header>
+    <mat-card-title class="title"><p>{{option.title}}</p></mat-card-title>
+  </mat-card-header>
+  <mat-card-content class="card-content">
+    <div class="subscription-card-content">
+      <p class="price" *ngIf="option.isBought">Bought!</p>
+      <p class="price" *ngIf="!option.isBought">${{option.price}}</p>
+      <p class="desc">{{option.description}}</p>
+    </div>
+  </mat-card-content>
+  <mat-card-actions class="card-actions">
+    <button (click)="buyCancelRule()" class="subscription-card-button blue" type="button" aria-label="Buy/Cancel" mat-flat-button>
+      {{option.isBought ? 'Cancel' : 'Buy'}}
+    </button>
+  </mat-card-actions>
+</mat-card>

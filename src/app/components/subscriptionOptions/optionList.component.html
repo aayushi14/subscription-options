@@ -1,0 +1,7 @@
+<div class="flex-container">
+  <div *ngFor="let subOption of subOptions">
+    <div class="flex-item" *ngIf="subOption.page === currPage">
+      <app-card [option]="subOption" (buyClick)="clickBuy($event)"></app-card>
+    </div>
+  </div>
+</div>

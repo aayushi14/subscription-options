@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Starter",
+    "description": "Starter features for your business to grow.",
+    "price": "$1",
+    "bgcolor": "bg-gray",
+    "bought": false,
+    "clickable": true
+  },
+  {
+    "id": 2,
+    "title": "Regular",
+    "description": "Regular features for your business to grow.",
+    "price": "$25",
+    "bgcolor": "bg-blue",
+    "bought": false,
+    "clickable": true
+  },
+  {
+    "id": 3,
+    "title": "Professional",
+    "description": "Professional features for your business to grow.",
+    "price": "$75",
+    "bgcolor": "bg-purple",
+    "bought": false,
+    "clickable": true
+  },
+  {
+    "id": 4,
+    "title": "Ultimate",
+    "description": "The ultimate set of features for your business to grow.",
+    "price": "$115",
+    "bgcolor": "bg-red",
+    "bought": false,
+    "clickable": true
+  }
+]

@@ -1,0 +1,16 @@
+<div class="site">
+  <div class="site-content">
+    <mat-toolbar-row class="toolbar">
+      <span>MyApp</span>
+      <span class="spacer"></span>
+      <div class="toolbar-right">
+        <a [routerLink]="['/option-list-1']" routerLinkActive="active">one</a>
+        <a [routerLink]="['/option-list-2']" routerLinkActive="active">two</a>
+      </div>
+    </mat-toolbar-row>
+    <main class="main-content">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>
+
